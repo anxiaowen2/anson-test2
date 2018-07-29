@@ -1,0 +1,8 @@
+{
+    "name": "anson/test2",
+    "description": "test composer",
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "another-vendor/package": "1.*"
+    }
+}

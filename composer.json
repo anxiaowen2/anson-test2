@@ -2,8 +2,7 @@
     "name": "anson/test2",
     "description": "test composer",
     "require": {
-        "php": "7.0",
-        "another-vendor/package": "1.*"
+        "php": "7.0"
     },
   "keywords": [
     "测试composer"

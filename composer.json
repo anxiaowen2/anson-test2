@@ -2,7 +2,23 @@
     "name": "anson/test2",
     "description": "test composer",
     "require": {
-        "php": "^5.3.3 || ^7.0",
+        "php": "7.0",
         "another-vendor/package": "1.*"
+    },
+  "keywords": [
+    "测试composer"
+  ],
+  "version": "1.0.0",
+  "homepage": "https://github.com/anxiaowen2/anson-test2",
+  "authors": [
+    {
+      "name": "anson",
+      "email": "244348295@qq.com"
     }
+  ],
+    "autoload": {
+    "psr-4": {
+      "anson\\test2\\": "src"
+    }
+  }  
 }
